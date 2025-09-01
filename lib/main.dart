@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_ui/pages/home_page.dart';
 
+import 'package:wallet_ui/rest_api/main2.dart';
+
+
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApi());
 }
+
+// MyApp
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -17,3 +22,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// MyApi
+// this is for Rest API call
+
